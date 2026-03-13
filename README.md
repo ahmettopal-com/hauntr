@@ -1,12 +1,10 @@
-<p align="center">
-  <img src="assets/icon.png" width="128" alt="Hauntr icon" />
-</p>
+<div align="center">
+  <img src="assets/icon.png" width="100" alt="Hauntr" />
+  <h1>👻 Hauntr</h1>
+  <p>macOS menu bar app to manage and launch multi-pane Ghostty terminal layouts</p>
 
-# 👻 Hauntr
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
-A macOS menu bar app that manages and launches multi-pane [Ghostty](https://ghostty.org) terminal layouts for your development projects.
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+</div>
 
 Define your pane layout visually, assign commands to each pane, and launch everything with one click or from the CLI.
 
