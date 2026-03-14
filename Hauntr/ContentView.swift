@@ -61,6 +61,10 @@ struct MenuBarView: View {
             openAboutWindow()
         }
 
+        Button("Check for Updates") {
+            NSWorkspace.shared.open(URL(string: "https://github.com/ahmettopal-com/hauntr/releases/latest")!)
+        }
+
         Button("Quit") {
             NSApplication.shared.terminate(nil)
         }
