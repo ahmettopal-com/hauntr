@@ -23,12 +23,13 @@ Define your pane layout visually, assign commands to each pane, and launch every
 -   **Equalize splits** — optionally equalize all pane sizes after launch
 -   **CLI tool** — launch layouts, get project paths, and manage projects from the terminal
 -   **URL scheme** — `hauntr://` for deep linking into the app
+-   **Tab title** — automatically sets the Ghostty tab title to the project's display name on launch
 -   **AppleScript generation** — generates two `.applescript` files per project (here & new window) using Ghostty's native API
 
 ## Requirements
 
 -   macOS 15.7 (Sequoia) or later
--   [Ghostty](https://ghostty.org) terminal
+-   [Ghostty](https://ghostty.org) 1.3.1 or later
 -   Xcode 16+ (to build from source)
 
 ## Build from Source
