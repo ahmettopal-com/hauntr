@@ -76,6 +76,11 @@ enum GhosttyScript {
         // Focus the first leaf pane
         let firstLeafVar = commands.first?.varName ?? rootVar
         lines.append("    focus \(firstLeafVar)")
+        lines.append("")
+
+        // Set tab title
+        let tabTitle = escapeForAppleScript(project.displayName.isEmpty ? project.name : project.displayName)
+        lines.append("    perform action \"set_tab_title:\(tabTitle)\" on \(rootVar)")
         lines.append("end tell")
 
         return lines.joined(separator: "\n")
